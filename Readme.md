@@ -98,3 +98,7 @@ This project is optimized for deployment on [Vercel](https://vercel.com/).
 5.  **Deploy:** Vercel will automatically trigger a deployment. After it's complete, your site will be live.
 
 Any subsequent push to the `main` branch of your repository will automatically trigger a new deployment on Vercel.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
