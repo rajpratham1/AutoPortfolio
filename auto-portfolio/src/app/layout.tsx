@@ -18,6 +18,14 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        {/* 👉 Google Search Console HTML Tag paste here */}
+        <meta
+          name="google-site-verification"
+          content="VdhVKveHrvzMpu2iScTCTUf_yx81EkymPfewSjHnylc"
+        />
+      </head>
+
       <body className={`${inter.className} flex flex-col min-h-screen`}>
         <Navbar />
         <main className="flex-grow">
