@@ -9,6 +9,9 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Auto Portfolio Generator",
   description: "Generate your free portfolio in 2 minutes.",
+  verification: {
+    google: "VdhVKveHrvzMpu2iScTCTUf_yx81EkymPfewSjHnylc",
+  },
 };
 
 export default function RootLayout({
@@ -18,19 +21,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <head>
-        {/* 👉 Google Search Console HTML Tag paste here */}
-        <meta
-          name="google-site-verification"
-          content="VdhVKveHrvzMpu2iScTCTUf_yx81EkymPfewSjHnylc"
-        />
-      </head>
-
       <body className={`${inter.className} flex flex-col min-h-screen`}>
         <Navbar />
-        <main className="flex-grow">
-          {children}
-        </main>
+        <main className="flex-grow">{children}</main>
         <Footer />
       </body>
     </html>
