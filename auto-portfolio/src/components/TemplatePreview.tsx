@@ -58,12 +58,10 @@ const TemplatePreview = () => {
           {templates.map((template) => (
             <div key={template.id} className="flex flex-col overflow-hidden rounded-lg border border-gray-200 shadow-lg transition-transform duration-300 hover:scale-105">
               <div className="flex-shrink-0">
-                <Image
+                <img
                   className="h-48 w-full object-cover"
                   src={template.imageUrl}
                   alt={template.name}
-                  width={400}
-                  height={200}
                 />
               </div>
               <div className="flex flex-1 flex-col justify-between bg-white p-6">
@@ -72,10 +70,8 @@ const TemplatePreview = () => {
                   <p className="mt-3 text-base text-gray-500">{template.description}</p>
                 </div>
                 <div className="mt-6">
-                  <Link href={`/preview/${template.id}`} legacyBehavior>
-                    <a target="_blank" className="text-sm font-semibold text-blue-600 hover:text-blue-500">
-                      Live Preview &rarr;
-                    </a>
+                  <Link href={`/preview/${template.id}`} target="_blank" className="text-sm font-semibold text-blue-600 hover:text-blue-500">
+                    Live Preview &rarr;
                   </Link>
                 </div>
               </div>
