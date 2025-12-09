@@ -6,37 +6,37 @@ const templates = [
     id: 'classic',
     name: 'Classic Professional',
     description: 'A timeless design for a clean and professional look.',
-    imageUrl: '/templates/classic.png',
+    imageUrl: '/classic.png',
   },
   {
     id: 'modern',
     name: 'Modern Minimalist',
     description: 'A sleek, contemporary design that focuses on your content.',
-    imageUrl: '/templates/modern.png',
+    imageUrl: '/modern.png',
   },
   {
     id: 'creative',
     name: 'Creative Bold',
     description: 'A vibrant and creative design to make your portfolio stand out.',
-    imageUrl: '/templates/creative.png',
+    imageUrl: '/creative.png',
   },
   {
     id: 'corporate',
     name: 'Corporate',
     description: 'A professional design suitable for corporate use.',
-    imageUrl: '/templates/corporate.png',
+    imageUrl: '/corporate.png',
   },
   {
     id: 'minimalist',
     name: 'Minimalist',
     description: 'A simple and clean design.',
-    imageUrl: '/templates/minimalist.png',
+    imageUrl: '/minimalist.png',
   },
   {
     id: 'tech',
     name: 'Tech',
     description: 'A design tailored for tech professionals.',
-    imageUrl: '/templates/tech.png',
+    imageUrl: '/tech.png',
   },
 ];
 
